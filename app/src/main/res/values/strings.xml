@@ -12,17 +12,13 @@
 
     <!--User Detail View Strings-->
     <string name="user_detail_header">Welcome!</string>
-    <string name="user_name_text">Username: </string>
-    <string name="first_name_text">First Name: </string>
-    <string name="last_name_text">Last Name: </string>
-    <string name="empty_name_field">Hey you didn\'t enter anything here</string>
     <string name="edit_button_text">Edit Profile</string>
 
     <!--Edit User View Strings-->
     <string name="edit_user_header">Profile Editor</string>
     <string name="edit_user_name_text">Username</string>
-    <string name="edit_first_name_text">Edit First Name</string>
-    <string name="edit_last_name_text">Edit Last Name</string>
+    <string name="edit_first_name_text">First Name</string>
+    <string name="edit_last_name_text">Last Name</string>
     <string name="save_button_text">Save</string>
     <string name="logout_button_text">Log Out</string>
 
@@ -38,4 +34,9 @@
     <!--Edit Form Validation Strings-->
     <string name="username_empty_message">Username can not be empty</string>
 
+    <!--General Purpose Strings-->
+    <string name="user_name_text">Username: </string>
+    <string name="first_name_text">First Name: </string>
+    <string name="last_name_text">Last Name: </string>
+    <string name="empty_name_field">Hey you didn\'t enter anything here</string>
 </resources>

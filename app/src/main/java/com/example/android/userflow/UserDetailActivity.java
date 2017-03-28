@@ -22,6 +22,9 @@ public class UserDetailActivity extends AppCompatActivity {
 
     //Variables
     private UserSession mSession;
+    private String userName;
+    private String firstName;
+    private String lastName;
 
     //BindViews
     @BindView(R.id.user_name_text_view) TextView mUserName;
@@ -48,8 +51,24 @@ public class UserDetailActivity extends AppCompatActivity {
             startActivity(intent);
         }
 
-        mUserName.setText(getResources().getString(R.string.user_name_text)+ mSession.getUserName());
-        mFirstName.setText(getResources().getString(R.string.first_name_text) + mSession.getFirstName());
-        mLastName.setText(getResources().getString(R.string.last_name_text) + mSession.getLastName());
+        userName = setNameField(getResources().getString(R.string.user_name_text),mSession.getUserName());
+        firstName = setNameField(getResources().getString(R.string.first_name_text), mSession.getFirstName());
+        lastName = setNameField(getResources().getString(R.string.last_name_text), mSession.getLastName());
+        mUserName.setText(userName);
+        mFirstName.setText(firstName);
+        mLastName.setText(lastName);
+    }
+
+    private String setNameField(String stringResource, String sessionString) {
+        String formattedString;
+        String emptyFieldString = getResources().getString(R.string.empty_name_field);
+
+        if(sessionString.equals("")) {
+            formattedString = stringResource + " " + emptyFieldString;
+        } else {
+            formattedString = stringResource + " " + sessionString;
+        }
+
+        return formattedString;
     }
 }
