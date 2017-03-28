@@ -45,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         if(sessionStatus == UserSession.LOGGED_IN_VALUE) {
             Intent intent = new Intent(this, UserDetailActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 

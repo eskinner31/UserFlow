@@ -49,8 +49,8 @@ public class UserDetailActivity extends AppCompatActivity {
         if(mSession.isLoggedIn() == UserSession.LOGGED_OUT_VALUE) {
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
+            finish();
         }
-
         userName = setNameField(getResources().getString(R.string.user_name_text),mSession.getUserName());
         firstName = setNameField(getResources().getString(R.string.first_name_text), mSession.getFirstName());
         lastName = setNameField(getResources().getString(R.string.last_name_text), mSession.getLastName());
