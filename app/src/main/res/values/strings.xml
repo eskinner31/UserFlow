@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">User Flow</string>
+
+    <!--Login Strings-->
+    <string name="sign_in_header">Please Sign In!</string>
+    <string name="username_hint_text">Username</string>
+    <string name="password_hint_text">Password</string>
+    <string name="password_confirm_hint_text">Re-Enter Password</string>
+    <string name="first_name_hint_text">First Name - optional</string>
+    <string name="last_name_hint_text">Last Name - optional</string>
+    <string name="submit_button">Submit</string>
+
+    <!--User Detail View Strings-->
+    <string name="user_detail_header">Welcome!</string>
+    <string name="user_name_text">Username: </string>
+    <string name="first_name_text">First Name: </string>
+    <string name="last_name_text">Last Name: </string>
+    <string name="empty_name_field">Hey you didn\'t enter anything here</string>
+    <string name="edit_button_text">Edit Profile</string>
+
+    <!--Edit User View Strings-->
+    <string name="edit_user_header">Profile Editor</string>
+    <string name="edit_user_name_text">Username</string>
+    <string name="edit_first_name_text">Edit First Name</string>
+    <string name="edit_last_name_text">Edit Last Name</string>
+    <string name="save_button_text">Save</string>
+    <string name="logout_button_text">Log Out</string>
+
+    <!--User Validation Strings-->
+    <string name="password_validation_message">Password Failed Validation</string>
+    <string name="username_validation_message">Username Failed Validation</string>
+
+    <!--Login Form Validation Strings-->
+    <string name="password_fails_match_message">Please make sure password and confirmation password match</string>
+    <string name="password_too_short_message">Please make sure password is greater than 5 characters</string>
+    <string name="username_message">Please provide a username</string>
+
+    <!--Edit Form Validation Strings-->
+    <string name="username_empty_message">Username can not be empty</string>
+
+</resources>
