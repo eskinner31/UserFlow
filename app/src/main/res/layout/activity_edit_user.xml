@@ -26,8 +26,8 @@
         <EditText
             android:id="@+id/user_name_text_view"
             android:layout_width="0dp"
-            android:layout_weight="3"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:hint="@string/edit_user_name_text"
             android:padding="16dp" />
 
@@ -43,15 +43,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/first_name_text"/>
+            android:text="@string/first_name_text" />
 
         <EditText
             android:id="@+id/first_name_text_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:hint="@string/edit_first_name_text"
-            android:padding="16dp"
-            android:layout_weight="3"/>
+            android:padding="16dp" />
 
     </LinearLayout>
 
@@ -64,16 +64,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/last_name_text"/>
+            android:text="@string/last_name_text" />
 
 
         <EditText
             android:id="@+id/last_name_text_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             android:hint="@string/edit_last_name_text"
-            android:padding="16dp"
-            android:layout_weight="3"/>
+            android:padding="16dp" />
 
     </LinearLayout>
 
